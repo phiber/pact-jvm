@@ -1,0 +1,29 @@
+{
+    "provider" : {
+        "name" : "test_provider"
+    },
+    "consumer" : {
+        "name" : "test_consumer"
+    },
+    "interactions" : [ {
+        "provider_state" : "test state",
+        "description" : "test interaction",
+        "request" : {
+            "method" : "GET",
+            "path" : "/"
+        },
+        "response" : {
+            "status" : 200
+        }
+    }, {
+        "provider_state" : "another test state",
+        "description" : "another test interaction",
+        "request" : {
+            "method" : "GET",
+            "path" : "/"
+        },
+        "response" : {
+            "status" : 200
+        }
+    }  ]
+}
